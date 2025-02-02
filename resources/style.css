@@ -1,8 +1,28 @@
 *{
-    font-family:Roboto;
+    font-family: 'Roboto';
 }
 
 nav.navigation {
     display:flex;
+    justify-content: space-around;
+    font-family: roboto;
+    color: #F9FAF8;
+    font-size: 20px;
+    background-color: #1F2937;
+}
 
+.nav_logo{
+    font-weight: 800;
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
 }
