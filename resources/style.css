@@ -1,14 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     font-family: 'Roboto';
+    margin: 0;
 }
 
 nav.navigation {
     display:flex;
-    justify-content: space-around;
-    font-family: roboto;
+    justify-content: space-between;
     color: #F9FAF8;
     font-size: 20px;
     background-color: #1F2937;
+    padding: 1% 10%;
 }
 
 .nav_logo{
@@ -23,6 +27,30 @@ nav.navigation {
 
 .nav_links a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-size: 18px;
+}
+
+.container.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 1% 10%;
+    justify-content: space-between;
+    gap: 20%;
+}
+
+.header_left {
+    display: flex;
+    flex-direction: column;
+    min-width: 30ch;
+}
+
+.header_image {
+    flex: auto;
+}
+
+.header_image img{
+    height: 100%;
+    width: 100%;
 }
